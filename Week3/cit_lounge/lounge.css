@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  }
+
+h1, h2 {
+    color: grey;
+  }
+
+h1 {
+    border-bottom: 1px solid black;
+  }
+
+p.greentea {
+  color: green;
+}
+
+p.raspberry {
+  color: blue;
+}
+
+p.blueberry {
+  color: purple;
+}
+
+p.cranberry {
+  color: maroon;
+}
+
+p {
+    color: maroon;
+  }
+
+em{
+  font-family:Impact, Velvitca, 'Arial', sans-serif;
+}

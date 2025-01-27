@@ -1,0 +1,23 @@
+div p {
+    color: purple;
+}
+
+ul.orange > li {
+    color: orange;
+}
+
+h1 + p {
+    color: teal;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+input[type="password"] {
+    border: 5px dashed red;
+}
+
+a:hover {
+    color: red;
+}

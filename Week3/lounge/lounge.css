@@ -1,0 +1,50 @@
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+body {
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {    
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#guarantee {                /* '.guarantee' does not work since it is not a class, since it is an id, '#guarantee' works*/ 
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444444;
+    border-width: thin;
+    border-style: dashed;
+    border-color: white;
+    padding: 25px;
+    padding-left: 80px;     /* overrides left padding */
+    margin: 30px;
+    margin-right: 250px ;   /* overrides right margin */
+    background-color: #a7cece;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-width: 3px;      /* latter entries override earlier entries */
+}
