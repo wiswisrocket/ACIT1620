@@ -1,0 +1,64 @@
+body {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#column1 {
+    align-content: center;
+    float: left;
+    width: 50%;
+}
+
+#column2 {
+    float: right;
+    width: 50%;
+}
+
+h1, h2, h3, #subtitle, #links {
+    text-align: center;
+    margin-bottom: 0px
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#portfolio, #links {
+    margin: 3%;
+    margin-top: 10px;
+}
+
+#links {
+    font-size: large;
+}
+
+#subtitle {
+    margin-top: 0px;
+    font-size: small;
+}
+
+#bio {
+    color: rgb(49,49, 49);
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1em;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: rgb(170, 11, 11);
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
