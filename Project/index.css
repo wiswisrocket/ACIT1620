@@ -155,3 +155,99 @@ body {
     color: var(--bcit-yellow);
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        margin-top: 20px;
+        padding: 0 1em;
+    }
+
+    #logo {
+        height: 60px;
+    }
+
+    .gameHeader {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .gameHeader p {
+        font-size: 2em;
+    }
+
+    .container {
+        width: 100%;
+        padding: 1em;
+        max-width: 100%;
+    }
+
+    #hangman {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #hangmanImg {
+        width: 100%;
+        padding: 0.5em;
+        object-fit: contain;
+    }
+
+    .keyboard {
+        gap: 0.4em;
+    }
+
+    .keyboard button {
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+    }
+
+    #userInput {
+        flex-wrap: wrap;
+        font-size: 1.4em;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #newGameButton {
+        width: 100%;
+        font-size: 1em;
+        padding: 0.8em;
+    }
+
+    #resultText {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #resultText p {
+        font-size: 0.9em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .keyboard button {
+        width: 1.6em;
+        height: 1.6em;
+        font-size: 0.9em;
+    }
+
+    #userInput {
+        font-size: 1.2em;
+    }
+
+    .gameHeader p {
+        font-size: 1.8em;
+    }
+}
