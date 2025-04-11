@@ -21,7 +21,7 @@ function endGame() {
 
 // update hangman
 function hang() {
-  hangmanImg.src = "/Project/images/" + incorrectCount + ".png";
+  hangmanImg.src = "images/" + incorrectCount + ".png";
 }
 
 function resetGame() {
@@ -34,7 +34,7 @@ function resetGame() {
   resultText.classList.add("hide");
   keyboard.innerHTML = "";
   resultText.innerHTML = "";
-  hangmanImg.src = "/Project/images/0.png";
+  hangmanImg.src = "images/0.png";
 }
 
 function game() {
