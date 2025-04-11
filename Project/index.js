@@ -21,7 +21,7 @@ function endGame() {
 
 // update hangman
 function hang() {
-  hangmanImg.src = incorrectCount + ".png";
+  hangmanImg.src = "" + incorrectCount + ".png";
 }
 
 function resetGame() {
