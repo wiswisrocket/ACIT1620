@@ -155,6 +155,8 @@ body {
     color: var(--bcit-yellow);
 }
 
+/* Please ignore the section below, it was added after the presentation */
+/* It was added so whoever the game was shared to can view it properly on their phones */
 @media (max-width: 768px) {
     body {
         font-size: 14px;
