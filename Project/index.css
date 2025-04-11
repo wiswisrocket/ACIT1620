@@ -217,7 +217,8 @@ body {
     }
 
     #newGameButton {
-        width: 100%;
+        width: 80%;
+        max-width: 250px;
         font-size: 1em;
         padding: 0.8em;
     }
@@ -234,21 +235,5 @@ body {
     img {
         max-width: 100%;
         height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .keyboard button {
-        width: 1.6em;
-        height: 1.6em;
-        font-size: 0.9em;
-    }
-
-    #userInput {
-        font-size: 1.2em;
-    }
-
-    .gameHeader p {
-        font-size: 1.8em;
     }
 }
