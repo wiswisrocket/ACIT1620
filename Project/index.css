@@ -1,0 +1,157 @@
+:root {
+    --bcit-dark: #003c71;
+    --bcit-blue: #296cf6;
+    --bcit-trans-blue: rgb(0 37 85 / 0.8);
+    --bcit-white: #ffffff;
+    --bcit-yellow: #fff400;
+    --bcit-shadow: rgb(111, 85, 0, 0.25);
+    --bcit-disabled: rgb(143, 143, 143);
+    /* font-family: 'DM Sans';
+    font-family: 'Nunito Sans' */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    background-color: var(--bcit-dark);
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    height: 100px;
+}
+
+.gameHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    font-family: 'DM Sans';
+    margin-bottom: 1em;
+}
+
+.gameHeader p {
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--bcit-white);
+}
+
+.container {
+    background-color: var(--bcit-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    max-width: 40em;
+    box-shadow: 0 0 0.5em .05em var(--bcit-shadow);
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.keyboard button {
+    height: 2.4em;
+    width: 2.4em;
+    background-color: var(--bcit-yellow);
+    border: 3px solid var(--bcit-yellow);
+    box-shadow: 0 0 0.3em 0.1em var(--bcit-shadow);
+
+    font-weight: bolder;
+    color: var(--bcit-dark);
+}
+
+.keyboard button:disabled {
+    background-color: var(--bcit-shadow);
+    color: var(--bcit-disabled);
+}
+
+#userInput {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.dashes {
+    color: var(--bcit-dark);
+}
+
+#hangman {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid var(--bcit-blue);
+}
+
+#hangmanImg {
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+#newGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 28% auto auto auto;
+    padding: 1em;
+}
+
+#newGameButton {
+    font-family: 'DM Sans';
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--bcit-white);
+
+    background-color: var(--bcit-dark);
+    border: 3px solid var(--bcit-white);
+    width: 10em;
+    padding: 1em;
+    margin: 1em auto auto auto;
+}
+
+#resultText {
+    font-size: 1.5em;
+    background-color: var(--bcit-dark);
+    padding: 0.6em;
+}
+
+#resultText p {
+    font-size: 0.8em;
+    color: var(--bcit-white);
+}
+
+#resultText span {
+    font-weight: 600;
+    color: var(--bcit-yellow);
+}
+
+.win, .lose {
+    color: var(--bcit-yellow);
+}
+
